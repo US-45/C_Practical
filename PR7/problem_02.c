@@ -6,8 +6,8 @@ void swaping(int n1, int n2){
     n1 = n2;
     n2 = temp;
     
-    printf("Enter number 1: %d\n", n1);
-    printf("Enter number 2: %d\n", n2);
+    printf("Number 1: %d\n", n1);
+    printf("Number 2: %d\n", n2);
 }
 
 int main() {
