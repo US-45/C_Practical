@@ -2,6 +2,8 @@
 
 struct Student
 {
+    char name[50];
+    int rollNo;
     int total_marks;
     int total_marks_obtained;
     float percentage;
@@ -10,6 +12,13 @@ struct Student
 int main()
 {
     struct Student s;
+
+    printf("Enter the name of student: ");
+    scanf("%s",&s.name);
+
+    printf("Enter the Roll No of student: ");
+    scanf("%s",&s.rollNo);
+
 
     int no_of_subject;
     printf("Enter the no. of subjects: ");
